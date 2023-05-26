@@ -20,22 +20,6 @@
 		<data>
 		ap1BBK2Qj2m4ns0RYDezVgYTZec=
 		</data>
-		<key>Headers/NTHeadband.h</key>
-		<data>
-		jfR0pbqaVsnxaZ2Vz5NUEbixypY=
-		</data>
-		<key>Headers/NTHeadphones.h</key>
-		<data>
-		JipWYH6CmUhwDtcFTdYCb/aYr0I=
-		</data>
-		<key>Headers/NTHeadphones2.h</key>
-		<data>
-		ZTAKc4iCJnzyxP/ON2hTpKS3RcU=
-		</data>
-		<key>Headers/NTNP2Sensor.h</key>
-		<data>
-		/PQSMowjHcThYWlh8X1e+JEsEr8=
-		</data>
 		<key>Headers/NTScanner.h</key>
 		<data>
 		kURuhsMhIr2XYNkAooI1nXTqy38=
@@ -46,7 +30,7 @@
 		</data>
 		<key>Headers/NTTypes.h</key>
 		<data>
-		emDPKzr23IsC1ECbRo7QvJipBpg=
+		8M1oVbcQshSxs5H4dYl3DV5YETM=
 		</data>
 		<key>Headers/NTUtils.h</key>
 		<data>
@@ -54,7 +38,7 @@
 		</data>
 		<key>Headers/neurosdk.h</key>
 		<data>
-		6DHUoZe+MIJ6U5G6ZkawRVo/Ylc=
+		9zqL5Jo4beoekevuMhSMuWLXWNw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -95,34 +79,6 @@
 			X3CL+g1J+rm2IsQEwap+mAjhnMXQVbypOvfCZOjU80o=
 			</data>
 		</dict>
-		<key>Headers/NTHeadband.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wSYOQrirv+inO8cKKuvsDfeg7PvJFHhrLm5lXoYt764=
-			</data>
-		</dict>
-		<key>Headers/NTHeadphones.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5L+Dvu/iH6gAymogeOyxIR+PpsY5QzzWv3kDtMqv/j4=
-			</data>
-		</dict>
-		<key>Headers/NTHeadphones2.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sQVGfs+heJ+xVCIO1C9j2HCUN1ZpgeA4INdDc/izLvs=
-			</data>
-		</dict>
-		<key>Headers/NTNP2Sensor.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yG8QXcCzewWRiMWaytXNo44GpMZoimcPqWmgnjH2mYc=
-			</data>
-		</dict>
 		<key>Headers/NTScanner.h</key>
 		<dict>
 			<key>hash2</key>
@@ -141,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+5BtPBHW5G8o+O+sVgOUh9w4FQQ0MOFFrmJmAc5SDA=
+			bCjBqa5pp2f3ugARzj7WM7evlMYWLjwBJg+TddvxwOM=
 			</data>
 		</dict>
 		<key>Headers/NTUtils.h</key>
@@ -155,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FIFaULVWAD9n7pBRdmIlWJD5MRHZaqZr12S9h0BG7SM=
+			AwlGiEMLaLTfRgX9QRLFlbWRTPX+vNjp7hyUTfJNYxs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
