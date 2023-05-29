@@ -72,7 +72,8 @@ typedef NS_ENUM (UInt8, NTSensorFeature)
     NTSensorFeatureFPG,
     NTSensorFeatureEnvelope,
     NTSensorFeaturePhotoStimulator,
-    NTSensorFeatureAcousticStimulator
+    NTSensorFeatureAcousticStimulator,
+    NTSensorFeatureFlashCard
 };
 
 typedef NS_ENUM (UInt8, NTSensorFirmwareMode){
@@ -112,7 +113,12 @@ typedef NS_ENUM (UInt8, NTSensorCommand)
     NTSensorCommandStartPhotoStimulation,
     NTSensorCommandStopPhotoStimulation,
     NTSensorCommandStartAcousticStimulation,
-    NTSensorCommandStopAcousticStimulation
+    NTSensorCommandStopAcousticStimulation,
+    NTCommandFileSystemEnable,
+    NTCommandFileSystemDisable,
+    NTCommandFileSystemStreamClose,
+    NTCommandStartCalibrateSignal,
+    NTCommandStopCalibrateSignal
 };
 
 typedef NS_ENUM (UInt8, NTSensorParameter) {
@@ -147,7 +153,16 @@ typedef NS_ENUM (UInt8, NTSensorParameter) {
     NTSensorParameterSamplingFrequencyMEMS,
     NTSensorParameterSamplingFrequencyFPG,
     NTSensorParameterAmplifier,
-    NTSensorParameterSensorChannels
+    NTSensorParameterSensorChannels,
+    NTParameterSamplingFrequencyResp,
+    NTParameterSurveyId,
+    NTParameterFileSystemStatus,
+    NTParameterFileSystemDiskInfo,
+    NTParameterReferentsShort,
+    NTParameterReferentsGround,
+    NTParameterSamplingFrequencyEnvelope,
+    NTParameterChannelConfiguration,
+    NTParameterElectrodeState
 };
 
 typedef NS_ENUM (UInt8, NTSensorParamAccess) {
@@ -176,6 +191,8 @@ typedef NS_ENUM (UInt8, NTSensorFilter) {
     NTSensorFilterBSFBwhLvl2CutoffFreq55_65Hz,
     NTSensorFilterHPFBwhLvl2CutoffFreq10Hz,
     NTSensorFilterLPFBwhLvl2CutoffFreq400Hz,
+    NTFilterHPFBwhLvl2CutoffFreq80Hz,
+    NTFilterUnknown = 0xFF
 };
 
 typedef NS_ENUM (UInt8, NTSensorSamplingFrequency) {
@@ -217,10 +234,12 @@ typedef NS_ENUM (UInt8, NTSensorDataOffset) {
 };
 
 typedef NS_ENUM (UInt8, NTSensorExternalSwitchInput) {
-    NTSensorExternalSwitchInputMioElectrodesRespUSB,
-    NTSensorExternalSwitchInputMioElectrodes,
-    NTSensorExternalSwitchInputMioUSB,
-    NTSensorExternalSwitchInputRespUSB
+    NTSensorExternalSwitchInputElectrodesRespUSB,
+    NTSensorExternalSwitchInputElectrodes,
+    NTSensorExternalSwitchInputUSB,
+    NTSensorExternalSwitchInputRespUSB,
+    NTSensorExternalSwitchInputShort,
+    NTSensorExternalSwitchInputUnknown = 0xFF
 };
 
 typedef NS_ENUM (UInt8, NTSensorADCInput) {
@@ -459,7 +478,8 @@ typedef NS_ENUM (UInt8, NTSensorAmpMode)
     NTSensorAmpModeIdle,
     NTSensorAmpModeSignal,
     NTSensorAmpModeResist,
-    NTSensorAmpModeSignalResist
+    NTSensorAmpModeSignalResist,
+    NTSensorAmpModeEnvelope
 };
 
 
