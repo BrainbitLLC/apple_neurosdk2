@@ -13,6 +13,7 @@
 @property (NS_NONATOMIC_IOSONLY) NTSensorGyroscopeSensitivity GyroSens;
 @property (NS_NONATOMIC_IOSONLY, readonly) NTSensorSamplingFrequency SamplingFrequencyFPG;
 @property (NS_NONATOMIC_IOSONLY, readonly) NTSensorSamplingFrequency SamplingFrequencyMEMS;
+@property (NS_NONATOMIC_IOSONLY, readonly) NTSensorSamplingFrequency SamplingFrequencyResist;
 @property (NS_NONATOMIC_IOSONLY, readonly) NTSensorAmpMode AmpMode;
 @property (NS_NONATOMIC_IOSONLY) NTIrAmplitude  IrAmplitudeHeadband;
 @property (NS_NONATOMIC_IOSONLY) NTRedAmplitude RedAmplitudeHeadband;
