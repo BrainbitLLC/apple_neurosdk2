@@ -8,8 +8,16 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
   spec.osx.deployment_target = "10.14"
   spec.source       = { :git => "https://github.com/BrainbitLLC/apple_neurosdk2.git", :tag => "#{spec.version}" }
+
   spec.ios.vendored_libraries = 'neurosdk2.xcframework/ios-arm64/libneurosdk2.dylib'
+  spec.ios.source_files   = 'neurosdk2.xcframework/ios-arm64/Headers/*.h'
+
   spec.ios.vendored_libraries = 'neurosdk2.xcframework/ios-arm64_x86_64-simulator/libneurosdk2.dylib'
+  spec.ios.source_files   = 'neurosdk2.xcframework/ios-arm64_x86_64-simulator/Headers/*.h'
+
   spec.osx.vendored_libraries = 'neurosdk2.xcframework/ios-arm64_x86_64-maccatalyst/libneurosdk2.dylib'
+  spec.osx.source_files   = 'neurosdk2.xcframework/ios-arm64_x86_64-maccatalyst/Headers/*.h'
+
   spec.osx.vendored_libraries = 'neurosdk2.xcframework/macos-arm64_x86_64/libneurosdk2.dylib'
+  spec.osx.source_files   = 'neurosdk2.xcframework/macos-arm64_x86_64/Headers/*.h'
 end
